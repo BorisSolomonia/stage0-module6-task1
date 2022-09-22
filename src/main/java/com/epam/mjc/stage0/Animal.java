@@ -13,8 +13,8 @@ public class Animal {
   public String getDescription(){
       String fur1 = hasFur ? "a": "no";
       return "This animal is mostly " +
-              color +
-              " . It has " +
+              color +" "+
+              ". It has " +
               numberOfPaws +
               " paws and " + fur1 +
               " fur.";
